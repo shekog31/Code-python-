@@ -1,3 +1,4 @@
+ff= input()
 le= input("Enter character: ")
 
 if le=="a" or "A":
