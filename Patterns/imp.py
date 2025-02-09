@@ -4,12 +4,24 @@ sc = turtle.Screen()
 sc.setup(400,400)
 polygon=turtle.Turtle()
 
-ns=6
-sl=70
+polygon.forward(100)
+polygon.left(120)
 
-a=360.0/ns
-for i in range(ns):
-    polygon.forward(sl)
-    polygon.right(a)
-    
+polygon.forward(100)
+polygon.left(120)
+
+polygon.forward(100)
+
+polygon.penup()
+polygon.right(150)
+polygon.forward(50)
+
+polygon.pendown()
+polygon.right(90)
+polygon.forward(100)
+polygon.right(120)
+polygon.forward(100)
+polygon.right(120)
+polygon.forward(100)
+   
 turtle.done()
