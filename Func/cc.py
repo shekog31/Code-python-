@@ -13,7 +13,7 @@ def div(a,b):
 def mod(a,b):
     return a%b
 
-print("{lease pick operation")
+print("please pick operation")
 print("a.add")
 print("b.sub")
 print("c.mul")
